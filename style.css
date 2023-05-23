@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ h1 {
+    font-size: 2em;
+    margin-top: 0;
+    overflow: hidden;
+    margin-left: 3%;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-left: 2% ;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to {width: 100%}
+  }
+
+  
+  img {
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f2cdff;
+    white-space: nowrap;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #814ea4;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav {
+    float: right;
+    
+  }
+  
+  nav a {
+    display: block;
+    margin-right: 1em;
+    padding: 3%;
+  }
+  
+ 
+  ul a{
+    color: black;
+    text-decoration: underline;
+  }
+
+  li{
+    margin-bottom: 2%;
+  }
+  p a{
+    color: rgb(60, 60, 60);
+    text-decoration: underline;
+
+  }
+  section {
+    margin-top: 1em;
+    padding-left: 2%;
+    padding-top: 1%;
+  }
+  
+  #projects {
+    margin: 5%;
+    background-color: #f2d5ff;
+    padding: 2%;
+    border-radius: 50px;
+  }
+  
+  #about {
+    background-color: #ffffff;
+  }
+  
+  #contact {
+    background-color: #ffffff;
+  }
+  
+  img {
+    max-width: 150px;
+    margin-bottom: 1em;
+  }
+   
